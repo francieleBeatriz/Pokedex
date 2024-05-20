@@ -6,6 +6,7 @@
     <title>Pokédex</title>
     <link rel="shortcut icon" href="images/pokedex-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="pesquisaPokemon.js" defer></script>
 </head>
 <body>
     <main>
@@ -14,10 +15,13 @@
                 <h1>Pokédex</h1>
                 <img src="images/pokedex-icon.png" alt="">
             </div>
-
-            <div class="pokedex-ImagemPokemon">
+            <div class="pokedex-pesquisaPokemon">
+                <input type="text" placeholder="Nome ou Id do Pokemon" id="input-pesquisaPokemon">
+                <button id="botao-pesquisarPokemon">
+                    <img src="images/search.svg" alt="icone de Lupa">
+                </button>
             </div>
-            <div class="pokedex-informacoesPokemon">
+            <div class="pokedex-cardPokemon">
             </div>
             <div class="botoes-rodape">
                 <button class="botoes-acoes anterior">Anterior</button>
